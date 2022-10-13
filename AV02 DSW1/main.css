@@ -1,0 +1,388 @@
+header{
+    text-align: center;
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom, rgb(255, 85, 184), pink);
+    padding: 60px 0px 60px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.principal {
+    width: 80%;
+    margin: 0 auto;
+    border: 3px solid rgb(255, 225, 230);
+    background-color: rgb(255, 189, 203);
+}
+
+body {
+    background-image: url(https://i.pinimg.com/originals/65/99/8d/65998d8238e2aeb7bb1587b0af716f4b.png)
+}
+
+#jojotitle{
+    grid-column: 2/3;
+    background-image: url(jojotitle.png);
+    background-size: cover;
+    height: 180px;
+    width: 300px;
+    margin-left: 260px;
+}
+
+.pink {
+    background-color:rgb(255, 255, 255);
+    margin: 3px;
+    border-radius: 5px;
+}
+
+.pink-t {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 20px;
+    color: rgb(255, 138, 183);
+}
+
+.pink-t2 {
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 20px;
+    color: rgb(255, 138, 183);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 138, 183);;
+}
+
+a:visited{
+    color: rgb(255, 138, 183);;
+}
+
+a:visited:hover {
+    color: rgb(255, 27, 133);
+}
+
+.dropdown-item:visited{
+    color: rgb(116, 51, 86);
+}
+
+.imgem {
+    width: 500px;
+    border-radius: 20px;
+    border: 3px black solid;
+    margin: 0 auto;
+}
+
+.tam {
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 20px;
+
+}
+
+.redondo{
+    border-radius: 30px;
+}
+
+.tam2 {
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+}
+.tam3 {
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+}
+
+#jonathan {
+    background-image: url(https://static.wikia.nocookie.net/jjba/images/3/3f/JonathanP2.png/revision/latest/scale-to-width-down/342?cb=20170223113043);
+    background-size: cover;
+    transition: 1s;
+}
+
+#jonathan:hover {
+    filter: grayscale(100%);
+}
+
+#joseph {
+    background-image: url(https://static.wikia.nocookie.net/jjba/images/5/52/Josephnovo.png/revision/latest?cb=20150123005423&path-prefix=pt-br);
+    background-size: cover;
+    transition: 1s;
+}
+
+#joseph:hover {
+    filter: grayscale(100%);
+}
+
+#jotaro {
+    background-image: url(http://pm1.narvii.com/7952/da6c85cffe6ebeab94049a303fc7328244ac8bffr1-736-1029v2_uhq.jpg);
+    background-size: cover;
+    transition: 1s;
+}
+
+#jotaro:hover {
+    filter: grayscale(100%);
+}
+
+#josuke {
+    background-image: url(https://static.wikia.nocookie.net/jjba/images/2/24/JosukeAnime.PNG/revision/latest/scale-to-width-down/270?cb=20171212081940);
+    background-size: cover;
+    transition: 1s;
+}
+
+#josuke:hover {
+    filter: grayscale(100%);
+}
+
+#giorno {
+    background-image: url(https://static.wikia.nocookie.net/jjba/images/1/19/Giorno_Giovanna_Anime.png/revision/latest?cb=20200310175513);
+    background-size: cover;
+    transition: 1s;
+}
+
+#giorno:hover {
+    filter: grayscale(100%);
+}
+
+#jolyne {
+    background-image: url(https://static.wikia.nocookie.net/jjba/images/a/ae/JolyneAnimeSitting.jpg/revision/latest/scale-to-width-down/350?cb=20211216201925);
+    background-size: cover;
+    transition: 1s;
+}
+
+#jolyne:hover {
+    filter: grayscale(100%);
+}
+
+#johnny {
+    background-image: url(https://i.pinimg.com/474x/00/bf/09/00bf09661c4d0dad9dd95b2c9530bae1.jpg);
+    background-size: cover;
+    transition: 1s;
+}
+
+#johnny:hover {
+    filter: grayscale(100%);
+}
+
+#josuke2 {
+    background-image: url(http://pm1.narvii.com/7419/5e42361e59c0021c845293002a7da04da4801ce2r1-465-660v2_00.jpg);
+    background-size: cover;
+    transition: 1s;
+}
+
+#josuke2:hover {
+    filter: grayscale(100%);
+}
+
+.tira {
+    background-image: linear-gradient(to top, black, transparent);
+    color: white;
+    border-radius: 10px;
+    margin-top: 370px;
+}
+
+#diobrando {
+    background-image: url(https://static.wikia.nocookie.net/jjba/images/d/d1/Dioburando.png/revision/latest?cb=20150122234645&path-prefix=pt-br);
+    background-size: cover;
+    transition: 1s;
+}
+
+#diobrando:hover {
+    filter: grayscale(100%);
+}
+
+#pillar {
+    background-image: url(https://i.pinimg.com/originals/c4/b3/0f/c4b30f3b4fac72c206f06d630eb7e6b0.jpg);
+    background-size: cover;
+    transition: 1s;
+}
+
+#pillar:hover {
+    filter: grayscale(100%);
+}
+
+#DIO {
+    background-image: url(https://static.wikia.nocookie.net/unanything/images/9/9a/638771CC-8977-4AA9-96BE-741D96CDF3E1.jpeg/revision/latest?cb=20190825143621);
+    background-size: cover;
+    transition: 1s;
+}
+
+#DIO:hover {
+    filter: grayscale(100%);
+}
+
+#kira {
+    background-image: url(https://i.pinimg.com/originals/69/81/0f/69810fe081bc7f91fc30b9e4474f93fd.jpg);
+    background-size: cover;
+    transition: 1s;
+}
+
+#kira:hover {
+    filter: grayscale(100%);
+}
+
+#diavolo {
+    background-image: url(http://pm1.narvii.com/7340/62828a813f67f4264a188996ece63def3a20e707r1-564-544v2_uhq.jpg);
+    background-size: cover;
+    transition: 1s;
+}
+
+#diavolo:hover {
+    filter: grayscale(100%);
+}
+
+#pucci {
+    background-image: url(https://i.pinimg.com/originals/a1/2e/18/a12e1879dce00115eea30ed54bfa4a97.jpg);
+    background-size: cover;
+    transition: 1s;
+}
+
+#pucci:hover {
+    filter: grayscale(100%);
+}
+
+#valentine {
+    background-image: url(https://static.wikia.nocookie.net/jjba/images/2/26/Valentinenormal.png/revision/latest/scale-to-width-down/300?cb=20150128222549&path-prefix=pt-br);
+    background-size: cover;
+    transition: 1s;
+}
+
+#valentine:hover {
+    filter: grayscale(100%);
+}
+
+#wonder {
+    background-image: url(https://64.media.tumblr.com/73d7332185ec17c20c616c1c234f104d/2936527e1eab34cd-0a/s540x810/58a056db85926be453510ed4df70b6fe1b3d24e4.jpg);
+    background-size: cover;
+    transition: 1s;
+}
+
+#wonder:hover {
+    filter: grayscale(100%);
+}
+
+.white {
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    margin-left: 13px;
+    border-radius: 20px;
+}
+
+#stonefree-stats{
+    background-image: url(stone\ free.png);
+    background-size: cover;
+    height: 450px;
+    width:450px;
+}
+
+#stonefree{
+    background-image: url(https://static.wikia.nocookie.net/jjba/images/e/e0/Teh.png/revision/latest/top-crop/width/360/height/360?cb=20170522005747&path-prefix=pt-br);
+    background-size: cover;
+    height: 450px;
+    width:450px;
+}
+
+#jonathanstand{
+    background-image: url(https://static.jojowiki.com/images/c/c1/latest/20191015213539/JoestarStandManga.jpg);
+    background-size: cover;
+    height: 450px;
+    width:450px;
+}
+
+#jonathanstand-stats{
+    background-image: url(joestarstand.png);
+    background-size: cover;
+    height: 450px;
+    width:450px;
+}
+
+#starplatinum{
+    background-image: url(http://pm1.narvii.com/7952/73dcedbdcec2b73f11d4a434913e2159eb193abfr1-508-604v2_00.jpg);
+    background-size: cover;
+    height: 450px;
+    width:450px;
+}
+
+#starplatinum-stats{
+    background-image: url(starplatinum.png);
+    background-size: cover;
+    height: 450px;
+    width:450px;
+}
+
+#crazydiamond{
+    background-image: url(https://static.jojowiki.com/images/thumb/c/c5/latest/20200625184236/Crazy_Diamond_Infobox_Manga.png/400px-Crazy_Diamond_Infobox_Manga.png);
+    background-size: cover;
+    height: 450px;
+    width:450px;
+}
+
+#crazydiamond-stats{
+    background-image: url(crazydiamond.png);
+    background-size: cover;
+    height: 450px;
+    width:450px;
+}
+
+#goldexperience{
+    background-image: url(https://i.pinimg.com/564x/83/4e/53/834e5361f47325f8380fda30742cbce9.jpg);
+    background-size: cover;
+    height: 450px;
+    width:450px;
+}
+
+#goldexperience-stats{
+    background-image: url(goldexperience.png);
+    background-size: cover;
+    height: 450px;
+    width:450px;
+}
+
+#hermitpurple{
+    background-image: url(https://static.wikia.nocookie.net/jjba/images/1/1e/Hermit.png/revision/latest?cb=20170420164045&path-prefix=pt-br);
+    background-size: cover;
+    height: 450px;
+    width:450px;
+}
+
+#hermitpurple-stats{
+    background-image: url(hermitpurple.png);
+    background-size: cover;
+    height: 450px;
+    width:450px;
+}
+
+h1{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2{
+    color: rgb(146, 47, 77);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.fs{
+    font-size: 80px;
+}
+
+.descricao{
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 15px;
+    border: 3px black solid;
+}
+
+.centro{
+    margin: 0 auto;
+}
+
+figure{
+    margin: 0 auto;
+}
